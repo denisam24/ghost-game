@@ -1,13 +1,10 @@
-========================
-= Descriere generală   =
-========================
+Descriere generală
 
 Proiectul simuleaza o harta bidimensională. Jucătorul se deplasează conform unui set de instrucțiuni, iar fantomele se mișcă automat pe baza unor reguli prestabilite.
 Mai întâi sunt aplicate mutările jucătorului, apoi sunt simulate mișcările fantomelor. După fiecare pas se verifică dacă apare o coliziune între jucător și o fantomă.
 
-==========================================================
-= Structura proiectului și separarea fișierelor          =
-==========================================================
+
+Structura proiectului și separarea fișierelor
 
 Aplicația este împărțită în mai multe clase:
 
@@ -18,9 +15,7 @@ Aplicația este împărțită în mai multe clase:
     - Ghost -> Modelează o fantomă. Conține coordonatele acesteia și logica de deplasare.
 
 
-========================
-=     Implementare     =
-========================
+Implementare
 
 - Harta este modelată prin coordonate (x, y), iar pozițiile sunt actualizate treptat, în funcție de mutările jucătorului și ale fantomelor.
 
